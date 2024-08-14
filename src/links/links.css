@@ -1,0 +1,39 @@
+.body{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.images{
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+
+    overflow: hidden;
+
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.slide{
+    height: 30vh;
+    width: 30vh;
+}
+
+
+.slide-hide{
+    display: none;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+}
+
+.link:hover{
+    color: #ffff33;
+}

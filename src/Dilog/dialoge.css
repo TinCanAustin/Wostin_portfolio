@@ -1,0 +1,83 @@
+.box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.box > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.Dialoge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Dialoge{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    margin: 0;
+    color: white;
+}
+
+@keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.Dialoge > h3 {
+    margin: 0;
+    max-width: 30vw;
+}
+
+.Dialoge > img {
+    height: 100%;
+    margin: 0;
+    align-self: flex-end;
+}
+
+.prompt{
+    position: absolute;
+    bottom: -50px; /* Adjust as needed */
+    width: 100%;
+    text-align: center;
+}
+
+
+/* .box{
+    border: 4px solid #ffce26;
+    background-color: #140a19;
+    border-radius: 8px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Dialoge{
+    min-height: 12vh;
+    min-width: 40vw;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Dialoge > h3{
+    margin: 0;
+} */
