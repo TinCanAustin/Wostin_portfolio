@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react';   
 
+import github from "/github.svg"
+import itch from "/itch.io.svg"
+import youtube from "/youtube.svg"
 import './links.css'
 
 function Links(){
@@ -40,9 +43,9 @@ function Links(){
         <>
             <div className='body'>
                 <div className='images'>
-                    <img src="/github.svg" id="git" className={logoIndex == 0 ? "slide" : "slide slide-hide"}/>
-                    <img src="/itch.io.svg" id='itch' className={logoIndex == 1 ? "slide" : "slide slide-hide"}/>
-                    <img src="/youtube.svg" id='you' className={logoIndex == 2 ? "slide" : "slide slide-hide"}/>
+                    <img src={github} id="git" className={logoIndex == 0 ? "slide" : "slide slide-hide"}/>
+                    <img src={itch} id='itch' className={logoIndex == 1 ? "slide" : "slide slide-hide"}/>
+                    <img src={youtube} id='you' className={logoIndex == 2 ? "slide" : "slide slide-hide"}/>
                 </div>
                 <a href={links[logoIndex]} className='link'>[{links[logoIndex]}]</a>
             </div>
