@@ -16,19 +16,19 @@ export const dialoges = [
         reaction : "/Niko_eating_a_pancake.webp"
     },
     {
-        dialoge : "I actually stated coding at a pertty young age",
+        dialoge : "I actually started coding at a pertty young age",
         reaction : "/Niko_yawn.webp"
     },
     {
-        dialoge : "but for the amount of time I have been coding I sadly dont have much project to back up the claim.",
+        dialoge : "but for the amount of time I have been coding I sadly dont have many projects to back up the claim",
         reaction : "/Niko_upset2.webp"
     },
     {
-        dialoge : "I started off with QBasic or QB64 as some calls it and then slowly moved to python.",
+        dialoge : "I started off with QBasic or QB64 as some call it and then slowly moved to python.",
         reaction : "/Niko_speak.webp"
     },
     {
-        dialoge : "Then I leared some shell with a lot of other random languages.",
+        dialoge : "Then I learned some shell with a lot of other random languages.",
         reaction : "/Niko_speak.webp"
     },
     {
@@ -36,7 +36,7 @@ export const dialoges = [
         reaction : "/Niko_happy.png"
     },
     {
-        dialoge : "The reason why I can't show these projects are beauce of a hard-drive failer that I had a while back",
+        dialoge : "The reason why I can't show these projects are beauce of a hard-drive failuer that I had a while back",
         reaction : "/Niko_distressed_meow.webp"
     },
     {
@@ -56,7 +56,7 @@ export const dialoges = [
         reaction : "/Niko_speak.webp"
     },
     {
-        dialoge : "this portfoilo included.",
+        dialoge : "this portfolio included.",
         reaction : "/Niko_yawn.webp"
     },
     {
@@ -100,11 +100,11 @@ export const dialoges = [
         reaction : "/Niko.webp"
     },
     {
-        dialoge : "anyways, thanks for going thorught my portfolio.",
+        dialoge : "anyways, thanks for going through my portfolio.",
         reaction : "/Niko_happy.png"
     },
     {
-        dialoge : "I will be updateing this once I have more projects in my hands, soo for now have my gitHub, my YouTube channel and my itch.io links",
+        dialoge : "I will be updating this once I have more projects in my hands, soo for now have my gitHub, my YouTube channel and my itch.io links",
         reaction : "/Niko_speak.webp"
     },
 ];
