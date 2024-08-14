@@ -48,6 +48,7 @@ function Links(){
                     <img src={youtube} id='you' className={logoIndex == 2 ? "slide" : "slide slide-hide"}/>
                 </div>
                 <a href={links[logoIndex]} className='link'>[{links[logoIndex]}]</a>
+                <p className='help'>[Use &larr; and &rarr; to naviage. Press Enter to go to the link]</p>
             </div>
         </>
     );

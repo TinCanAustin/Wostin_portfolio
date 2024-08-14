@@ -37,3 +37,10 @@
 .link:hover{
     color: #ffff33;
 }
+
+.help{
+    position: absolute;
+    top: 150%;
+    width: 100%;
+    text-align: center;
+}
